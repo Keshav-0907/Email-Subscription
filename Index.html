@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(43, 43, 43);
+            color: aliceblue;
+            margin: 0%;
+            padding: 0%;
+        }
+
+        .main {
+            display: flex;
+            height: 99vh;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .inp {
+            width: 270px;
+            padding: 8px;
+            margin: 8px;
+            border-radius: 10px;
+
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        button {
+            border-radius: 10px;
+            font-size: 18px;
+            padding: 5px;
+            width: 95%;
+            background-color: rgb(254, 254, 130);
+        }
+
+        button:hover{
+            cursor: pointer;
+            background-color: rgb(254, 254, 130);
+
+        }
+
+        .Details-form{
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <div>
+                <h1>Sign Up</h1>
+                <p>It's quick and easy.</p>
+            </div>
+                <form action="/" method="post">
+                    <input class="inp" type="text" name="name" placeholder="Enter Your Name">
+                    <input class="inp" type="text" name="email" placeholder="Enter Your Email">
+                    <div class="Details-form">
+                        <button type="submit"> Subscribe Now</button>
+                    </div>
+                </form>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
